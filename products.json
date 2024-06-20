@@ -1,0 +1,59 @@
+[
+  {
+      "id": 1,
+      "name":"Powder makeup",
+      "price": 1.75,
+      "image": "img/1.png",
+      "description":"Elevate your makeup routine with the power of powder! Our powder makeup comes in a variety of types, from translucent to mattifying, to set your foundation, absorb oil, and even out your skin tone for a natural or covered finish. Choose the perfect powder for your look and experience the difference for yourself."
+  },
+  {
+      "id": 2,
+      "name":"NEUTROGENA Oil-Free Acne Wash Daily Scrub 125ml",
+      "price": 15,
+      "image": "img/2.png",
+      "description": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum veritatis facilis, nesciunt ducimus tempora at, expedita possimus, laudantium et earum ipsum. Doloremque repudiandae cupiditate consectetur sint laudantium beatae esse ducimus? Ullam, voluptatem minus. Eos corporis dolor sit mollitia repellat voluptates! Assumenda maiores voluptate, numquam eius atque cum, qui voluptas, impedit corporis deserunt delectus quis expedita quas. Adipisci laborum numquam minima?"
+  },
+  {
+      "id": 3,
+      "name":" LD03 LOUNGE CHAIR",
+      "price": 290,
+      "image": "img/3.png",
+      "description": "Expertly rendered by Carl Hansen & Søn, the lounge chair—first introduced in 1951 and enduring ever since—is available in oak or as a combination of oak and walnut, sourced from sustainable forestry. Choose from seat and back upholstery in a selection of leather options or in a custom fabric."
+  },
+  {
+      "id": 4,
+      "name":" LD04 LOUNGE CHAIR",
+      "price": 200,
+      "image": "img/4.png",
+      "description": "Expertly rendered by Carl Hansen & Søn, the lounge chair—first introduced in 1951 and enduring ever since—is available in oak or as a combination of oak and walnut, sourced from sustainable forestry. Choose from seat and back upholstery in a selection of leather options or in a custom fabric."
+  },
+  {
+      "id": 5,
+      "name":" LD05 LOUNGE CHAIR",
+      "price": 300,
+      "image": "img/5.png",
+      "description": "Expertly rendered by Carl Hansen & Søn, the lounge chair—first introduced in 1951 and enduring ever since—is available in oak or as a combination of oak and walnut, sourced from sustainable forestry. Choose from seat and back upholstery in a selection of leather options or in a custom fabric."
+  },
+  {
+      "id": 6,
+      "name":" LD06 LOUNGE CHAIR",
+      "price": 200,
+      "image": "img/6.png",
+      "description": "Expertly rendered by Carl Hansen & Søn, the lounge chair—first introduced in 1951 and enduring ever since—is available in oak or as a combination of oak and walnut, sourced from sustainable forestry. Choose from seat and back upholstery in a selection of leather options or in a custom fabric."
+  },
+  {
+      "id": 7,
+      "name":" LD07 LOUNGE CHAIR",
+      "price": 200,
+      "image": "img/7.png",
+      "description": "Expertly rendered by Carl Hansen & Søn, the lounge chair—first introduced in 1951 and enduring ever since—is available in oak or as a combination of oak and walnut, sourced from sustainable forestry. Choose from seat and back upholstery in a selection of leather options or in a custom fabric."
+  },
+  {
+      "id": 8,
+      "name":" LD08 LOUNGE CHAIR",
+      "price": 200,
+      "image": "img/8.png",
+      "description": "Expertly rendered by Carl Hansen & Søn, the lounge chair—first introduced in 1951 and enduring ever since—is available in oak or as a combination of oak and walnut, sourced from sustainable forestry. Choose from seat and back upholstery in a selection of leather options or in a custom fabric."
+  }
+
+]

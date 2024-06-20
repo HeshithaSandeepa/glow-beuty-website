@@ -1,66 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="/css/index.css">
-  <title>Glow Beauty</title>
-</head>
-<body>
-  <!-- navigation bar -->
-  <nav class="navbar navbar-expand-lg fixed-top ps-5 ">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Glow Beauty</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Products</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about-us">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#">Contact</a>
-          </li>
-        </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Glow Beauty</title>
+  </head>
+  <body>
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Glow Beauty</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-us">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-  <!-- end navigation bar -->
+    </nav>
+    <!-- end navigation bar -->
 
-  <!-- home section -->
-  <section id="home" class="container-fluid">
-    <div class="home-section container">
-      <div class="home-text">
-        <h1>Welcome to Glow Beauty</h1>
-        <h2>Embrace Your Radiance</h2>
-        <button class="shop-now-btn">shop now</button>
+    <!-- home section -->
+    <section id="home" class="container-fluid">
+      <div class="home-section container">
+        <div class="home-text">
+          <h1>Welcome to Glow Beauty</h1>
+          <h2>Embrace Your Radiance</h2>
+          <button class="shop-now-btn">shop now</button>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 <!-- Products -->
-<section id="products" class="container-fluid pt-5">
-  <div class="products container">
-    <h1>Products</h1>
-  </div>
-</section>
+    <section id="products" class="container-fluid pt-5 pb-5">
+      <div class="products container">
+        <h1>Products</h1>
+        <div class="listProduct"></div>
+      </div>
+    </section>
 
+    <!-- about us -->
+    <section id="about-us" class="container-fluid pt-5">
+      <div class="about-us container">
+        <h1>about us</h1>
+      </div>
+    </section>
 
-  <!-- about us -->
-  <section id="about-us" class="container-fluid pt-5">
-    <div class="about-us container">
-      <h1>about us</h1>
-    </div>
-  
-  </section>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-</body>
+<!-- contact us -->
+
+        <section id="Contact" class="Contact container">
+          <h2 class="text-center mb-5"Contact>Contact</h2>
+          <section id="landingContact" class="section-py bg-body landing-contact">
+            <div class="container">
+              <div class="row gy-4">
+                <!-- right side -->
+                <div class="col-lg-5">
+                  <div class="contact-img-box position-relative border p-2 h-100">
+                    <img src="https://img.freepik.com/free-photo/contact-register-feedback-support-help-concept_53876-124243.jpg?size=626&ext=jpg&ga=GA1.1.1482548361.1704244754&semt=ais" alt="contact" class="contact-img w-100 scaleX-n1-rtl img-fluid">
+                    <div class="pt-3 px-4 pb-1 mt-3">
+                      <div class="row gy-3 gx-md-4">
+                        <div class="col-md-8">
+                          <p class="text-bold">Email<br> 
+                            <i class="fa-solid fa-envelope"></i> <a href="mailto:himashipremarathne@gmail.com">himashipremarathne@gmail.com</a></p>
+                        </div>
+                        <div class="col-md-4">
+                          <p>phone<br>
+                              <i class="fa-solid fa-phone"></i><span id="phone-number">+94 xxxxxxxx</span><br>
+                              <span id="copy-message" class="text-success"></span> </p>
+                      </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- message part -->
+    
+                <div class="col-lg-7">
+                  <div class="card">
+                    <div class="card-body">
+                      <h4 class="mb-1">Send a message</h4>
+                      <p class="mb-4">
+                        If you have any inquiries about our products, want to explore potential partnerships,<br class="d-none d-lg-block">
+                        or have questions before making a purchase, you've come to the right place.
+                    </p>
+                    
+                      <form action="POST">
+                        <div class="row g-4">
+                          <div class="col-md-6">
+                            <label class="form-label" for="contact-form-fullname">Full Name</label>
+                            <input type="text" class="form-control" id="contact-form-fullname" placeholder="Himashi Premaratne" required>
+                          </div>
+                          <div class="col-md-6">
+                            <label class="form-label" for="contact-form-email">Email</label>
+                            <input type="text" id="contact-form-email" class="form-control" placeholder="himashipremarathne@gmail.com" required>
+                          </div>
+                          <div class="col-12">
+                            <label class="form-label" for="contact-form-message">Message</label>
+                            <textarea id="contact-form-message" class="form-control" rows="9" placeholder="Write a message" required></textarea>
+                          </div>
+                          <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <!-- end message part -->
+              </div>
+            </div>
+          </section>
+    </section>
+    <!-- end contact -->
+    <!-- section footer -->
+    <footer>
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-3 col-sm-6">
+                  <div class="single-box">
+                      <img src="img/logo.png" alt="">
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam repellendus sunt praesentium aspernatur iure molestias.</p>
+                  <h3>We Accect</h3>
+                  <div class="card-area">
+                          <i class="fa fa-cc-visa"></i>
+                          <i class="fa fa-credit-card"></i>
+                          <i class="fa fa-cc-mastercard"></i>
+                          <i class="fa fa-cc-paypal"></i>
+                  </div>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                  <div class="single-box">
+                      <h2>Our Products</h2>
+                  <ul>
+                      <li><a href="#">Face Products</a></li>
+                      <li><a href="#">Hair Brushes & Combs</a></li>
+                      <li><a href="#">Moisturizers</a></li>
+                      <li><a href="#">Makeup Brushes & sets</a></li>
+                      <li><a href="#">Hair Removal Accessories</a></li>
+                      <li><a href="#">Skin care set</a></li>
+                  </ul>
+                  </div>                    
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                  <div class="single-box">
+                      <h2>Quick Links</h2>
+                  <ul>
+                      <li><a href="#home">Home</a></li>
+                      <li><a href="#products">Products</a></li>
+                      <li><a href="#about-us">About Us</a></li>
+                      <li><a href="#Contact">Contact Us</a></li>
+                  
+                  </ul>
+                  </div>                    
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                  <div class="single-box">
+                      <h2>Newsletter</h2>
+                      <p>Subscribe Our newsletter and get latest update our products </p>
+                      <div class="input-group mb-3">
+                          <input type="text" class="form-control" placeholder="name" aria-describedby="basic-addon2">
+                      
+                      </div>
+                      <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Email address" aria-label="Enter your Email ..." aria-describedby="basic-addon2">
+                        <span class="input-group-text" id="basic-addon2"><i class="fa fa-long-arrow-right"></i></span>
+                    </div>
+                      <h2>Follow us on</h2>
+                      <p class="socials">
+                        <a href="https://web.facebook.com/himashi.premarathna"><i class="fa fa-facebook"></i></a>  
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+    <script>
+          let products = null;
+          // get datas from file json
+          fetch('products.json')
+              .then(response => response.json())
+              .then(data => {
+                  products = data;
+                  addDataToHTML();
+          })
+
+          function addDataToHTML(){
+      // remove datas default from HTML
+          let listProductHTML = document.querySelector('.listProduct');
+
+          // add new datas
+          if(products != null) // if has data
+          {
+              products.forEach(product => {
+                  let newProduct = document.createElement('a');
+                  newProduct.href = '/detail.html?id=' + product.id;
+                  newProduct.classList.add('item');
+                  newProduct.innerHTML =
+                  `<img src="${product.image}" alt="">
+                  <h2>${product.name}</h2>
+                  <div class="price">$${product.price}</div>`;
+                  listProductHTML.appendChild(newProduct);
+
+              });
+          }
+      }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
